@@ -1,6 +1,6 @@
 [package]
 name = "commander"
-version = "0.5.10"
+version = "0.6.0"
 edition = "2021"
 authors = ["Artur Gwoździowski"]
 description = "remote robot control process based on webrtc-rs v0.9"
