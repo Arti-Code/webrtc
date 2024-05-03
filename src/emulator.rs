@@ -38,23 +38,23 @@ impl Motors {
     }
 
     pub fn stop(&self) {
-        println!("stop");
+        println!("[↓]: stop");
     }    
 
     pub fn back(&self) {
-        println!("back");
+        println!("[↓]: back");
     }
 
     pub fn front(&self) {
-        println!("front");
+        println!("[↓]: front");
     }
 
     pub fn right(&self) {
-        println!("right");
+        println!("[↓]: right");
     }
 
     pub fn left(&mut self) {
-        println!("left");
+        println!("[↓]: left");
     }
 
     pub fn finish(&mut self) {

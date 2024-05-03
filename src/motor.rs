@@ -1,20 +1,20 @@
 use rppal::gpio::{Gpio, OutputPin};
 
-//? const PWMA: u8 = 16;
-//? const AIN1: u8 = 21;
-//? const AIN2: u8 = 20;
-//? const PWMB: u8 = 26;
-//? const BIN1: u8 = 13;
-//? const BIN2: u8 = 19;
-//? const STBY: u8 = 6;
+// const PWMA: u8 = 16;
+// const AIN1: u8 = 21;
+// const AIN2: u8 = 20;
+// const PWMB: u8 = 26;
+// const BIN1: u8 = 13;
+// const BIN2: u8 = 19;
+// const STBY: u8 = 6;
 
-//* const PWMA: u8 = 6;
-//* const AIN1: u8 = 19;
-//* const AIN2: u8 = 13;
-//* const PWMB: u8 = 16;
-//* const BIN1: u8 = 21;
-//* const BIN2: u8 = 20;
-//* const STBY: u8 = 26;
+// const PWMA: u8 = 6;
+// const AIN1: u8 = 19;
+// const AIN2: u8 = 13;
+// const PWMB: u8 = 16;
+// const BIN1: u8 = 21;
+// const BIN2: u8 = 20;
+// const STBY: u8 = 26;
 
 const PWMA: u8 = 6;
 const AIN1: u8 = 13;

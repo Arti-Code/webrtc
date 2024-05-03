@@ -1,6 +1,6 @@
 [package]
 name = "commander"
-version = "0.5.0"
+version = "0.5.10"
 edition = "2021"
 authors = ["Artur Gwoździowski"]
 description = "remote robot control process based on webrtc-rs v0.9"
@@ -10,24 +10,24 @@ description = "remote robot control process based on webrtc-rs v0.9"
 
 [dependencies]
 webrtc = "0.9.0"
-tokio = { version = "1.21.1", features = ["full"] }
+tokio = { version = "1.32.0", features = ["full"] }
 env_logger = "0.10.0"
-hyper = { version = "0.14.23", features = ["full"] }
-tokio-util = "0.7.4"
-anyhow = "1.0.68"
-chrono = "0.4.23"
-log = "0.4.17"
-serde = { version = "1.0.152", features = ["derive"] }
-serde_json = "1.0.91"
-bytes = "1.2.1"
+hyper = { version = "0.14.27", features = ["full"] }
+tokio-util = { version = "0.7.9", features = ["codec"] }
+anyhow = "1.0.75"
+chrono = "0.4.31"
+log = "0.4.20"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.107"
+bytes = "1.5.0"
 lazy_static = "1.4.0"
 rand = "0.8.5"
-firebase-rs = "2.0.5"
-base64 = "0.21.0"
-openssl-src = "300.0.12"
-openssl = { version = "0.10.57" }
-#rppal = "0.14.1"
-clap = { version = "4.1.8", features = ["derive"] }
+firebase-rs = "2.0.8"
+base64 = "0.21.4"
+openssl-src = "300.1.5"
+openssl = { version = "0.10.57", features = ["vendored"]}
+rppal = "0.15.0"
+clap = { version = "4.4.6", features = ["derive"] }
 
 [build-dependencies]
 embed-resource = "2.3.0"
